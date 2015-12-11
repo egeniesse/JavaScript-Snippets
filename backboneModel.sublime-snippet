@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+var ${1:name} = Backbone.Model.extend({
+
+	defaults: {
+		${2:attributes}: 
+	},
+    	
+	initialize: function() {
+		{${0:// body...}
+	}
+	});
+]]></content>
+    <tabTrigger>bm</tabTrigger>
+    <scope>source.js,source.ts</scope>
+    <description>BackboneModel</description>
+</snippet>
