@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+var ${1:Collection} = Backbone.Collection.extend({
+
+	model: ${2://model},
+
+	initialize: function() {
+		${3://body...}
+	}
+
+	${4:method}: function({4:params}) {
+		${4://body...}: 
+	},
+});
+]]></content>
+    <tabTrigger>bc</tabTrigger>
+    <scope>source.js,source.ts</scope>
+    <description>BackboneView</description>
+</snippet>
